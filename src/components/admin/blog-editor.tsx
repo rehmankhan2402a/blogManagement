@@ -352,7 +352,7 @@ export function BlogEditor() {
               variant="outline"
               size="sm"
               className="rounded-full text-xs gap-1.5 hidden sm:inline-flex"
-              onClick={() => window.open("http://localhost:5173/insights/" + slug, "_blank")}
+              onClick={() => window.open("https://kaseer.com/insights/" + slug, "_blank")}
             >
               <ExternalLink className="h-3.5 w-3.5 text-primary" /> View Live
             </Button>

@@ -341,7 +341,7 @@ function BlogList() {
                             </button>
                           </DropdownMenuTrigger>
                           <DropdownMenuContent align="end">
-                            <DropdownMenuItem onClick={() => window.open(`http://localhost:5173/insights/${b.slug}`, "_blank")}>
+                            <DropdownMenuItem onClick={() => window.open(`https://kaseer.com/insights/${b.slug}`, "_blank")}>
       <ExternalLink className="mr-2 h-4 w-4 text-primary" /> View Live
     </DropdownMenuItem>
     <DropdownMenuItem asChild>

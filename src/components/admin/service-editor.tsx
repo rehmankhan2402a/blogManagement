@@ -320,7 +320,7 @@ export function ServiceEditor() {
                 className="hidden sm:inline-flex gap-1.5 text-xs rounded-full border-border/70"
               >
                 <a
-                  href={`http://192.168.18.57:8000/services#${slug}`}
+                  href={`https://kaseer.com/services#${slug}`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -726,7 +726,7 @@ export function ServiceEditor() {
                 <CardContent className="p-5 space-y-3">
                   <div className="text-xs font-bold text-foreground">Live Website URL</div>
                   <a
-                    href={`http://192.168.18.57:8000/services#${slug}`}
+                    href={`https://kaseer.com/services#${slug}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-between rounded-xl border border-border/60 bg-background/60 p-2.5 text-xs text-primary hover:underline"
